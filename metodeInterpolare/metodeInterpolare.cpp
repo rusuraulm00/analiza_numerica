@@ -125,5 +125,3 @@ int main()
     interpolareAitkenNeville();
     return 0;
 }
-// This code implements three methods of polynomial interpolation: Lagrange, Newton, and Aitken-Neville.
-// The function f(x) is defined as cos(x), and the interpolation is performed over the interval [0, 1] with a specified alpha value.
