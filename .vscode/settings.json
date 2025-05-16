@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "metodafalseipozitii": "cpp"
+        "metodafalseipozitii": "cpp",
+        "cmath": "cpp",
+        "iostream": "cpp"
     }
 }
