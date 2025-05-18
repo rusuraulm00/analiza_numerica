@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 
-double f(double x)
+float f(float x)
 {
     return cos(x);
 }
@@ -16,12 +16,12 @@ void interpolareAitkenNeville()
 
     float h = (b - a) / n;
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i <= n; i++)
     {
         x[i] = a + i * h;
     }
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i <= n; i++)
     {
         p[0][i] = f(x[i]);
     }
